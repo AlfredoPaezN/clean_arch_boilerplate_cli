@@ -28,7 +28,7 @@ flutter pub get
 
 2. Generate required code::
 ```bash
-flutter pub get
+flutter packages pub run build_runner build
 ```
 
 3. Start building your app with the pre-configured architecture and tools.
