@@ -1,0 +1,16 @@
+name: clean_arch_boilerplate_cli
+description: This CLI tool generates a Flutter project template with the best practices and tools integrated.
+version: 1.0.0
+repository: https://github.com/AlfredoPaezN/clean_arch_boilerplate_cli
+
+environment:
+  sdk: ^3.0.7
+
+dependencies:
+
+executables:
+  flutter_cli: bin/clean_arch_boilerplate_cli.dart
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
